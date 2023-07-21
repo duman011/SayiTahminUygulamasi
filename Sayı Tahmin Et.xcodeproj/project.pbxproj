@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8330C59C2A6A7D9400933E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C59B2A6A7D9400933E40 /* AppDelegate.swift */; };
+		8330C59E2A6A7D9400933E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C59D2A6A7D9400933E40 /* SceneDelegate.swift */; };
+		8330C5A02A6A7D9400933E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C59F2A6A7D9400933E40 /* ViewController.swift */; };
+		8330C5A32A6A7D9400933E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8330C5A12A6A7D9400933E40 /* Main.storyboard */; };
+		8330C5A52A6A7D9500933E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8330C5A42A6A7D9500933E40 /* Assets.xcassets */; };
+		8330C5A82A6A7D9500933E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8330C5A62A6A7D9500933E40 /* LaunchScreen.storyboard */; };
+		8330C5B32A6A7D9500933E40 /* Say__Tahmin_EtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C5B22A6A7D9500933E40 /* Say__Tahmin_EtTests.swift */; };
+		8330C5BD2A6A7D9500933E40 /* Say__Tahmin_EtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C5BC2A6A7D9500933E40 /* Say__Tahmin_EtUITests.swift */; };
+		8330C5BF2A6A7D9500933E40 /* Say__Tahmin_EtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C5BE2A6A7D9500933E40 /* Say__Tahmin_EtUITestsLaunchTests.swift */; };
+		8330C5CC2A6A7E0700933E40 /* TahminEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C5CB2A6A7E0700933E40 /* TahminEkraniVC.swift */; };
+		8330C5CE2A6A7E1F00933E40 /* SonucEkranıVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330C5CD2A6A7E1F00933E40 /* SonucEkranıVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8330C5AF2A6A7D9500933E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8330C5902A6A7D9400933E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8330C5972A6A7D9400933E40;
+			remoteInfo = "Sayı Tahmin Et";
+		};
+		8330C5B92A6A7D9500933E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8330C5902A6A7D9400933E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8330C5972A6A7D9400933E40;
+			remoteInfo = "Sayı Tahmin Et";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8330C5982A6A7D9400933E40 /* Sayı Tahmin Et.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sayı Tahmin Et.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8330C59B2A6A7D9400933E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8330C59D2A6A7D9400933E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8330C59F2A6A7D9400933E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8330C5A22A6A7D9400933E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8330C5A42A6A7D9500933E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8330C5A72A6A7D9500933E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8330C5A92A6A7D9500933E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8330C5AE2A6A7D9500933E40 /* Sayı Tahmin EtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sayı Tahmin EtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8330C5B22A6A7D9500933E40 /* Say__Tahmin_EtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmin_EtTests.swift; sourceTree = "<group>"; };
+		8330C5B82A6A7D9500933E40 /* Sayı Tahmin EtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sayı Tahmin EtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8330C5BC2A6A7D9500933E40 /* Say__Tahmin_EtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmin_EtUITests.swift; sourceTree = "<group>"; };
+		8330C5BE2A6A7D9500933E40 /* Say__Tahmin_EtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmin_EtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8330C5CB2A6A7E0700933E40 /* TahminEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkraniVC.swift; sourceTree = "<group>"; };
+		8330C5CD2A6A7E1F00933E40 /* SonucEkranıVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SonucEkranıVC.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8330C5952A6A7D9400933E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5AB2A6A7D9500933E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5B52A6A7D9500933E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8330C58F2A6A7D9400933E40 = {
+			isa = PBXGroup;
+			children = (
+				8330C59A2A6A7D9400933E40 /* Sayı Tahmin Et */,
+				8330C5B12A6A7D9500933E40 /* Sayı Tahmin EtTests */,
+				8330C5BB2A6A7D9500933E40 /* Sayı Tahmin EtUITests */,
+				8330C5992A6A7D9400933E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8330C5992A6A7D9400933E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8330C5982A6A7D9400933E40 /* Sayı Tahmin Et.app */,
+				8330C5AE2A6A7D9500933E40 /* Sayı Tahmin EtTests.xctest */,
+				8330C5B82A6A7D9500933E40 /* Sayı Tahmin EtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8330C59A2A6A7D9400933E40 /* Sayı Tahmin Et */ = {
+			isa = PBXGroup;
+			children = (
+				8330C59B2A6A7D9400933E40 /* AppDelegate.swift */,
+				8330C59D2A6A7D9400933E40 /* SceneDelegate.swift */,
+				8330C59F2A6A7D9400933E40 /* ViewController.swift */,
+				8330C5A12A6A7D9400933E40 /* Main.storyboard */,
+				8330C5A42A6A7D9500933E40 /* Assets.xcassets */,
+				8330C5A62A6A7D9500933E40 /* LaunchScreen.storyboard */,
+				8330C5A92A6A7D9500933E40 /* Info.plist */,
+				8330C5CB2A6A7E0700933E40 /* TahminEkraniVC.swift */,
+				8330C5CD2A6A7E1F00933E40 /* SonucEkranıVC.swift */,
+			);
+			path = "Sayı Tahmin Et";
+			sourceTree = "<group>";
+		};
+		8330C5B12A6A7D9500933E40 /* Sayı Tahmin EtTests */ = {
+			isa = PBXGroup;
+			children = (
+				8330C5B22A6A7D9500933E40 /* Say__Tahmin_EtTests.swift */,
+			);
+			path = "Sayı Tahmin EtTests";
+			sourceTree = "<group>";
+		};
+		8330C5BB2A6A7D9500933E40 /* Sayı Tahmin EtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8330C5BC2A6A7D9500933E40 /* Say__Tahmin_EtUITests.swift */,
+				8330C5BE2A6A7D9500933E40 /* Say__Tahmin_EtUITestsLaunchTests.swift */,
+			);
+			path = "Sayı Tahmin EtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8330C5972A6A7D9400933E40 /* Sayı Tahmin Et */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8330C5C22A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin Et" */;
+			buildPhases = (
+				8330C5942A6A7D9400933E40 /* Sources */,
+				8330C5952A6A7D9400933E40 /* Frameworks */,
+				8330C5962A6A7D9400933E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sayı Tahmin Et";
+			productName = "Sayı Tahmin Et";
+			productReference = 8330C5982A6A7D9400933E40 /* Sayı Tahmin Et.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8330C5AD2A6A7D9500933E40 /* Sayı Tahmin EtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8330C5C52A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin EtTests" */;
+			buildPhases = (
+				8330C5AA2A6A7D9500933E40 /* Sources */,
+				8330C5AB2A6A7D9500933E40 /* Frameworks */,
+				8330C5AC2A6A7D9500933E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8330C5B02A6A7D9500933E40 /* PBXTargetDependency */,
+			);
+			name = "Sayı Tahmin EtTests";
+			productName = "Sayı Tahmin EtTests";
+			productReference = 8330C5AE2A6A7D9500933E40 /* Sayı Tahmin EtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8330C5B72A6A7D9500933E40 /* Sayı Tahmin EtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8330C5C82A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin EtUITests" */;
+			buildPhases = (
+				8330C5B42A6A7D9500933E40 /* Sources */,
+				8330C5B52A6A7D9500933E40 /* Frameworks */,
+				8330C5B62A6A7D9500933E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8330C5BA2A6A7D9500933E40 /* PBXTargetDependency */,
+			);
+			name = "Sayı Tahmin EtUITests";
+			productName = "Sayı Tahmin EtUITests";
+			productReference = 8330C5B82A6A7D9500933E40 /* Sayı Tahmin EtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8330C5902A6A7D9400933E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8330C5972A6A7D9400933E40 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8330C5AD2A6A7D9500933E40 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8330C5972A6A7D9400933E40;
+					};
+					8330C5B72A6A7D9500933E40 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8330C5972A6A7D9400933E40;
+					};
+				};
+			};
+			buildConfigurationList = 8330C5932A6A7D9400933E40 /* Build configuration list for PBXProject "Sayı Tahmin Et" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8330C58F2A6A7D9400933E40;
+			productRefGroup = 8330C5992A6A7D9400933E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8330C5972A6A7D9400933E40 /* Sayı Tahmin Et */,
+				8330C5AD2A6A7D9500933E40 /* Sayı Tahmin EtTests */,
+				8330C5B72A6A7D9500933E40 /* Sayı Tahmin EtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8330C5962A6A7D9400933E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8330C5A82A6A7D9500933E40 /* LaunchScreen.storyboard in Resources */,
+				8330C5A52A6A7D9500933E40 /* Assets.xcassets in Resources */,
+				8330C5A32A6A7D9400933E40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5AC2A6A7D9500933E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5B62A6A7D9500933E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8330C5942A6A7D9400933E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8330C5A02A6A7D9400933E40 /* ViewController.swift in Sources */,
+				8330C5CE2A6A7E1F00933E40 /* SonucEkranıVC.swift in Sources */,
+				8330C59C2A6A7D9400933E40 /* AppDelegate.swift in Sources */,
+				8330C59E2A6A7D9400933E40 /* SceneDelegate.swift in Sources */,
+				8330C5CC2A6A7E0700933E40 /* TahminEkraniVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5AA2A6A7D9500933E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8330C5B32A6A7D9500933E40 /* Say__Tahmin_EtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330C5B42A6A7D9500933E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8330C5BF2A6A7D9500933E40 /* Say__Tahmin_EtUITestsLaunchTests.swift in Sources */,
+				8330C5BD2A6A7D9500933E40 /* Say__Tahmin_EtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8330C5B02A6A7D9500933E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8330C5972A6A7D9400933E40 /* Sayı Tahmin Et */;
+			targetProxy = 8330C5AF2A6A7D9500933E40 /* PBXContainerItemProxy */;
+		};
+		8330C5BA2A6A7D9500933E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8330C5972A6A7D9400933E40 /* Sayı Tahmin Et */;
+			targetProxy = 8330C5B92A6A7D9500933E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8330C5A12A6A7D9400933E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8330C5A22A6A7D9400933E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8330C5A62A6A7D9500933E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8330C5A72A6A7D9500933E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8330C5C02A6A7D9500933E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8330C5C12A6A7D9500933E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8330C5C32A6A7D9500933E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sayı Tahmin Et/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-Et";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8330C5C42A6A7D9500933E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sayı Tahmin Et/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-Et";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8330C5C62A6A7D9500933E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-EtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sayı Tahmin Et.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sayı Tahmin Et";
+			};
+			name = Debug;
+		};
+		8330C5C72A6A7D9500933E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-EtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sayı Tahmin Et.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sayı Tahmin Et";
+			};
+			name = Release;
+		};
+		8330C5C92A6A7D9500933E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-EtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sayı Tahmin Et";
+			};
+			name = Debug;
+		};
+		8330C5CA2A6A7D9500933E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Say--Tahmin-EtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sayı Tahmin Et";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8330C5932A6A7D9400933E40 /* Build configuration list for PBXProject "Sayı Tahmin Et" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8330C5C02A6A7D9500933E40 /* Debug */,
+				8330C5C12A6A7D9500933E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8330C5C22A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin Et" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8330C5C32A6A7D9500933E40 /* Debug */,
+				8330C5C42A6A7D9500933E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8330C5C52A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin EtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8330C5C62A6A7D9500933E40 /* Debug */,
+				8330C5C72A6A7D9500933E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8330C5C82A6A7D9500933E40 /* Build configuration list for PBXNativeTarget "Sayı Tahmin EtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8330C5C92A6A7D9500933E40 /* Debug */,
+				8330C5CA2A6A7D9500933E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8330C5902A6A7D9400933E40 /* Project object */;
+}
